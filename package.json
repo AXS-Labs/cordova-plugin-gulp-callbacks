@@ -1,0 +1,23 @@
+{
+  "name": "cordova-plugin-wwl-gulp-callbacks",
+  "id": "cordova-plugin-wwl-gulp-callbacks",
+  "version": "1.0.2",
+  "main": "lib/before_run.js",
+  "description": "Plugin to forward cordova callbacks to a gulp script.",
+  "author": "Sascha Hillig <sascha@wonderweblabs.com>",
+  "license": "MIT",
+  "cordova": {
+    "platforms": [
+      "android",
+      "ios",
+      "browser"
+    ]
+  },
+  "keywords": [
+    "cordova"
+  ],
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "coffeeify": "^2.0.1"
+  }
+}

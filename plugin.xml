@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rim="http://www.blackberry.com/ns/widgets"
+    id="cordova-plugin-wwl-gulp-callbacks"
+    version="1.0.0-dev">
+    <name>cordova-plugin-wwl-gulp-callbacks</name>
+    <description>Plugin to forward cordova callbacks to a gulp script.</description>
+    <license>MIT</license>
+    <repo>https://bitbucket.org/wonderweblabs/cordova-plugin-wwl-gulp-callbacks.git</repo>
+
+    <hook type="after_plugin_add" src="lib/after_plugin_add.js" />
+    <hook type="before_run" src="lib/before_run.js" />
+    <hook type="before_prepare" src="lib/before_prepare.js" />
+
+</plugin>

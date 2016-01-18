@@ -1,0 +1,5 @@
+require('./lib/tasks/clean')
+require('./lib/tasks/watch')
+require('./lib/tasks/sass')
+require('./lib/tasks/coffee')
+require('./lib/tasks/copy')
