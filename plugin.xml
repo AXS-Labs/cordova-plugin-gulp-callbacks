@@ -10,8 +10,8 @@
     <license>MIT</license>
     <repo>https://bitbucket.org/wonderweblabs/cordova-plugin-wwl-gulp-callbacks.git</repo>
 
-    <hook type="after_plugin_add" src="lib/after_plugin_add.js" />
     <hook type="before_run" src="lib/before_run.js" />
     <hook type="before_prepare" src="lib/before_prepare.js" />
+    <hook type="after_plugin_add" src="lib/after_plugin_add.js" />
 
 </plugin>
