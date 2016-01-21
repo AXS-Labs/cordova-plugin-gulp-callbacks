@@ -18,6 +18,7 @@
   ],
   "dependencies": {
     "coffee-script": "^1.10.0",
-    "coffeeify": "^2.0.1"
+    "coffeeify": "^2.0.1",
+    "run-sequence": "^1.1.5"
   }
 }
