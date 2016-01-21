@@ -12,5 +12,6 @@
 
     <hook type="before_run" src="lib/before_run.js" />
     <hook type="before_prepare" src="lib/before_prepare.js" />
+    <hook type="after_plugin_install" src="lib/npm_install.js" />
 
 </plugin>
