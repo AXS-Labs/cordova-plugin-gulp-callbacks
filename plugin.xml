@@ -5,10 +5,10 @@
     xmlns:rim="http://www.blackberry.com/ns/widgets"
     id="cordova-plugin-wwl-gulp-callbacks"
     version="1.0.0-dev">
-    <name>cordova-plugin-wwl-gulp-callbacks</name>
+    <name>cordova-plugin-gulp-callbacks</name>
     <description>Plugin to forward cordova callbacks to a gulp script.</description>
     <license>MIT</license>
-    <repo>https://bitbucket.org/wonderweblabs/cordova-plugin-wwl-gulp-callbacks.git</repo>
+    <repo>git@github.com:AXS-Labs/cordova-plugin-gulp-callbacks.git</repo>
 
     <hook type="before_run" src="lib/before_run.js" />
     <hook type="before_prepare" src="lib/before_prepare.js" />
