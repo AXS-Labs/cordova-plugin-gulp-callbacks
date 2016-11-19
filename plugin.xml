@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:rim="http://www.blackberry.com/ns/widgets"
-    id="cordova-plugin-wwl-gulp-callbacks"
+    id="cordova-plugin-gulp-callbacks"
     version="1.0.0-dev">
     <name>cordova-plugin-gulp-callbacks</name>
     <description>Plugin to forward cordova callbacks to a gulp script.</description>
